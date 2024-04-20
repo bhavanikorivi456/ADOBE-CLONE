@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+.main-content{
+    padding: 20px;
+    padding-top: 8%;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: linear-gradient(to right, #add8e6 0%, #fa8bde 100%);  */
+    background: linear-gradient(-140deg, #f87bc8, hsl(180, 33%, 70%), #fcce6c);
+    width: 100vw;
+}
+.main-content h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.main-content h4{
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-top: 10px;
+    font-weight: normal;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card{
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 20px;
+    text-align: left;
+    border: 2px solid white;
+    height: 500px;
+}
+.card:hover{
+    cursor: pointer;
+}
+.big{
+    width: 800px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.small{
+    width: 300px;
+    margin-right: 80px;
+    font-size: 18px;
+}
+.card.big img{
+    position: absolute;
+    top: 460px;
+    right: 450px;
+    width: 850px;
+    height: auto;
+}
+.card.small img{
+    position: absolute;
+    width: 400px;
+    top: 480px;
+    right: -10px;
+    height: auto;
+}
+.card.big button {
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: inherit;
+    border: 2px solid black;
+}
+.card.big:hover button {
+    background-color: black;
+    color: white;
+    border: none;
+}
+.card.small button {
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: inherit;
+    border: 2px solid black;
+}
+.card.small:hover button {
+    background-color: black;
+    color: white;
+    border: none;
+}
+

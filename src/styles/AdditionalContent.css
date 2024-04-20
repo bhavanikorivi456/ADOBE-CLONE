@@ -1,0 +1,197 @@
+.additional-content {
+    text-align: center;
+  }
+  
+  .additional-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+  }
+  .additional-buttons button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 14px;
+    font-weight: bold;
+   }
+   .additional-buttons button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+   }
+   .additional-buttons h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+/* styling for cards */
+
+.additionalCardContent1{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.additionalCard1{
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 10px;
+  width: 350px;
+  height: 480px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.additionalCard1 p{
+  font-size: 16px;
+}
+.card11 a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+.card12 a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+.card11{
+  background-color: hsl(177, 83%, 67%);
+}
+.card12{
+  background-color: rgb(218, 22, 15);
+  color: white;
+}
+.card11 img{
+  position: absolute;
+  width: 400px;
+  top: 170%;
+  left: 40px;
+}
+.card12 img{
+  position: absolute;
+  width: 400px;
+  top: 160%;
+  left: 35%;
+}
+.card11:hover a,
+.card12:hover a {
+  text-decoration: underline;
+}
+.card13{
+  background: linear-gradient(to right, #add8e6 0%, #fa8bde 100%);
+}
+.card13 .subHead p a{
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.card13 .subHead:hover a{
+  text-decoration: underline;
+}
+
+/* ################ */
+.additionalImageCards{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.imageCard{
+  margin: 0 10px;
+  height: 480px;
+}
+.image-card1 img{
+  width: 810px;
+  height: 520px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.image-card2{
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  margin-right: 40px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.image-card2 {
+  background-color: hwb(34 15% 2%);
+}
+.image-card2 img{
+  width: 350px;
+  height: 330px;
+}
+.image-card2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+.image-card2:hover a{
+  text-decoration: underline;
+}
+/* ************************* */
+.additionalCardContent2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.additionalCard2{
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 10px;
+  width: 350px;
+  height: 480px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.additionalCard2 p{
+  font-size: 16px;
+}
+.cardContent11 a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+.cardContent12 a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+.cardContent11{
+  background-color: hsl(177, 83%, 67%);
+}
+.cardContent12{
+  background-color: rgb(218, 22, 15);
+  color: white;
+}
+/* .cardContent11 img{
+  position: absolute;
+  width: 370px;
+  top: 355%;
+  height: 250px;
+  left: 55px;
+}
+.cardContent12 img{
+  position: absolute;
+  width: 400px;
+  top: 160%;
+  left: 35%;
+} */
+.cardContent11:hover a,
+.cardContent12:hover a {
+  text-decoration: underline;
+}
+.cardContent13{
+  background: linear-gradient(to right, #add8e6 0%, #fa8bde 100%);
+}
+

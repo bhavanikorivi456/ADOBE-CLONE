@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 0.2rem;
+    border: 1px #ddd;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  .logo-and-categories {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  }
+  
+  /* logo styling */
+  
+  .adobe-logo{
+  width: 90px;
+  height: auto;
+  }
+  .adobe-logo:hover{
+    cursor: pointer;
+  }
+  
+  /* categories styling */
+  
+  .categories ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-grid; 
+  grid-auto-flow: column;
+  
+  }
+  .categories a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+  }
+  .categories a:hover {
+  background-color: #f0f0f0; 
+  border-radius: 4px; 
+  }
+  
+  /* Signin button styling */
+  
+  .signin-button{
+  padding: 8px 16px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+  }
+  .signin-button:hover{
+  color: blue;
+  }
+
+  
+  
